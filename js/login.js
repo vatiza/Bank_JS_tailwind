@@ -11,9 +11,9 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     console.log(pass);
     // verify 
     if (email === 'admin@vatiza.com' && pass === 'admin') {
-        console.log('valid user');
+        window.location.href = 'bank.html';
     } else {
-        console.log('invalid user')
+        alert(' Input Wrong User Email or Password ! ');
     }
 
 })
