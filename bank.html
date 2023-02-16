@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,53 @@
     <title>Bank</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
     <h1 class="text-5xl text-center mt-6    ">Welcome to <span class="font-semibold text-violet-600"><span
-        class=" text-fuchsia-500">Bank !!</span></h1>
-<main>
-    <section class="mt-12">
-        <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
-            <div class="bg-blue-800 p-8 rounded-xl">
-                <h3 class="text-2xl">Deposit  </h3>
-                <h2 class="text-5xl">$000</h2>
+                class=" text-fuchsia-500">Bank !!</span></h1>
+    <main>
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+                <div class="bg-blue-800 p-8 rounded-xl">
+                    <h3 class="text-2xl">Deposit </h3>
+                    <h2 class="text-5xl">$000</h2>
+                </div>
+                <div class="bg-indigo-800 p-8 rounded-xl">
+                    <h3 class="text-2xl">Withdrow </h3>
+                    <h2 class="text-5xl">$000</h2>
+                </div>
+                <div class="bg-rose-800  p-8 rounded-xl">
+                    <h3 class="text-2xl ">Balance </h3>
+                    <h2 class="text-5xl">$000</h2>
+                </div>
             </div>
-            <div class="bg-indigo-800 p-8 rounded-xl">
-                <h3 class="text-2xl">Withdrow  </h3>
-                <h2 class="text-5xl">$000</h2>
-            </div>
-            <div class="bg-rose-800  p-8 rounded-xl">
-                <h3 class="text-2xl">Deposit  </h3>
-                <h2 class="text-5xl">$000</h2>
-            </div>
-          
-          
-        </div>
-    </section>
+        </section>
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto text-white">
+                <div class="bg-cyan-700 p-8 rounded-xl">
+                    <h3 class="text-2xl mb-4">Deposit Amount </h3>
+                    <input class="w-9/12 block mb-4 px-4 rounded " type="text" name="" id="deposit-input" placeholder="$Enter amount">
+                    <button id="btn-deposit"
+                        class="bg-amber-500 px-8 py-2 hover:bg-blue-700 text-white font-medium rounded-lg">Deposit</button>
+                </div>
+                <div class="bg-green-800 p-8 rounded-xl">
+                    <h3 class="text-2xl mb-4">Withdraw Amount </h3>
+                    <input class="w-9/12 block mb-4 px-4 rounded " type="text" name="" id="deposit-input"
+                        placeholder="$Enter amount">
+                    <button id="btn-withdraw"
+                        class="bg-amber-500 px-8 py-2 hover:bg-blue-700 text-white font-medium rounded-lg">Withdraw</button>
+                </div>
 
-</main>
+            </div>
+
+
+        </section>
+
+    </main>
 
 
     <!--! js file location -->
     <script src="js/login.js"></script>
 </body>
+
 </html>
