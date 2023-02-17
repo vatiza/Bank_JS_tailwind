@@ -10,10 +10,10 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const pass = passField.value;
     console.log(pass);
     // verify 
-    if (email === 'admin@vatiza.com' && pass === 'admin') {
+    if (email === '' && pass === '') {
         window.location.href = 'bank.html';
     } else {
-        alert(' Input Wrong User Email or Password ! ');
+        alert('Please input field Blank! ');
     }
 
 })
